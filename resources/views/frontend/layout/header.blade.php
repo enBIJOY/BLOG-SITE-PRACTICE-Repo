@@ -16,18 +16,21 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent4">
                     <ul id="nav4" class="navbar-nav ml-auto">
                       <li class="nav-item">
+                        <a class="page-scroll" href="{{ route('home') }}">Home</a>
+                      </li>
+                      <!-- <li class="nav-item">
                         <a class="page-scroll active" href="{{ route('home') }}"  data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
                         aria-expanded="false" aria-label="Toggle navigation">Home
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
-                        <!-- <ul class="sub-menu collapse" id="sub-nav">
+                        <ul class="sub-menu collapse" id="sub-nav">
                           <li><a href="index.html" class="active">Home Style One</a></li>
                           <li><a href="index-2.html">Home Style Two</a></li>
                           <li><a href="index-3.html">Home Style Three</a></li>
-                        </ul> -->
-                      </li>
+                        </ul>
+                      </li> -->
                       <li class="nav-item">
                         <a class="page-scroll" href="{{ route('blog') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
                         aria-expanded="false" aria-label="Toggle navigation">Blogs

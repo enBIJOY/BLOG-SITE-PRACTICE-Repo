@@ -144,36 +144,78 @@
     <!-- ========================= about style-5 end ========================= -->
 
 		<!-- ========================= team style-6 start ========================= -->
-		<section class="team-section text-center team-style-6">
-          <div class="col-12">
-            <div class="section-title text-center pt-60 mb-60">
-              <h3 class="mb-15">You are using free lite version</h3>
-              <p>Please, purchase full version of the template to get all pages and features</p><br/>
-              <a href="https://rebrand.ly/base-gg" rel="nofollow" target="_blank" class="button radius-30">Purchase Now</a>
-            </div>
-          </div>
-    </section>
-    <!-- ========================= team style-6 end ========================= -->
-
-
-    <!-- ========================= clients-logo start ========================= -->
-    <section class="clients-logo-section pb-100">
+	
+    <section class="py-5 bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title text-center mb-60">
-              <h3>Co-created by</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="client-logo wow fadeInUp" data-wow-delay=".2s">
-              <img src="{{('base/img/clients/brands.svg')}}" alt="" class="w-100">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card shadow-sm">
+              <div class="card-body p-4">
+                
+                <div class="text-center mb-4">
+                  <h3 class="mb-2">Join Us</h3>
+                  <p class="text-muted mb-0">
+                    Get the latest updates and offers straight to your inbox.
+                  </p>
+                </div>
+
+                <form>
+                  <div class="row g-3 align-items-center">
+                    
+                    <!-- Name -->
+                    <div class="col-md-4">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-5">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="col-md-3 d-grid">
+                      <label class="form-label d-block">&nbsp;</label>
+                      <button type="submit" class="btn btn-primary">
+                        Subscribe
+                      </button>
+                    </div>
+
+                  </div>
+
+                  <div class="form-text mt-4">
+                    We respect your privacy. We ensure your safety.
+                  </div>
+                </form>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- ========================= team style-6 end ========================= -->
+
+        <!-- ========================= clients-logo start ========================= -->
+        <section class="clients-logo-section pb-100">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-title text-center mb-60">
+                  <h3>Co-created by</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="client-logo wow fadeInUp" data-wow-delay=".2s">
+                  <img src="{{('base/img/clients/brands.svg')}}" alt="" class="w-100">
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
 
     @endsection
