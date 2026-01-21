@@ -4,7 +4,7 @@
             <div class="row align-items-center">
               <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
-                  <a class="navbar-brand" href="index.html">
+                  <a class="navbar-brand" href="{{ route('home') }}">
                     <img src="{{('base/img/logo/logo.svg')}}" alt="Logo" />
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent4" aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent4">
                     <ul id="nav4" class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="page-scroll active" href="#0"  data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
+                        <a class="page-scroll active" href="{{ route('home') }}"  data-toggle="collapse" data-target="#sub-nav" aria-controls="sub-nav"
                         aria-expanded="false" aria-label="Toggle navigation">Home
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
@@ -29,25 +29,25 @@
                         </ul> -->
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="#0"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
+                        <a class="page-scroll" href="{{ route('blog') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
                         aria-expanded="false" aria-label="Toggle navigation">Blogs
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
                         <ul class="sub-menu collapse" id="sub-nav2">
-                          <li><a href="about-page.html">Sports</a></li>
-                          <li><a href="team-page.html">Technology</a></li>
-                          <li><a href="single-blog.html">Nature</a></li>
-                          <li><a href="pricing-page.html">Political</a></li>
-                          <li><a href="blog.html">Blog Page</a></li>
+                          <li><a href="{{ route('sport') }}">Sports</a></li>
+                          <li><a href="{{ route('technology') }}">Technology</a></li>
+                          <li><a href="{{ route('nature') }}">Nature</a></li>
+                          <li><a href="{{ route('political') }}">Political</a></li>
+                          <li><a href="{{ route('blog') }}">Blog Page</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="about-page.html">About Us</a>
+                        <a class="page-scroll" href="{{ route('about') }}">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll" href="contact-page.html">Contact</a>
+                        <a class="page-scroll" href="{{ route('contact') }}">Contact</a>
                       </li>
                       <li class="nav-item d-flex align-items-center border border-dark rounded px-2 ms-3">
                             <a class="nav-link px-2" href="{{('login')}}">Login</a>

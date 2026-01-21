@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,13 @@ Route::middleware([
         //let the user retun view to dashboard
     })->name('dashboard');
 });
+
+
+Route::get('home/',[PagesController::class, 'home'])->name('home');
+Route::get('blog/',[PagesController::class, 'blog'])->name('blog');
+Route::get('about/',[PagesController::class, 'about'])->name('about');
+Route::get('contact/',[PagesController::class, 'contact'])->name('contact');
+Route::get('sport/',[PagesController::class, 'sport'])->name('sport');
+Route::get('technology/',[PagesController::class, 'technology'])->name('technology');
+Route::get('nature/',[PagesController::class, 'nature'])->name('nature');
+Route::get('political/', [PagesController::class,'political'])->name('political');
