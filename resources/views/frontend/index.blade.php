@@ -243,17 +243,14 @@
                 <form class="ajax-form" data-action="{{ route('newsletter') }}">
                   @csrf
                   <div class="row g-3 align-items-center">
-                    <!-- Name -->
                     <div class="col-md-4">
                         <label class="form-label">Full Name</label>
                         <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
                     </div>
-                    <!-- Email -->
                     <div class="col-md-5">
                         <label class="form-label">Email Address</label>
                         <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
                     </div>
-                    <!-- Submit -->
                     <div class="col-md-3 d-grid">
                       <label class="form-label d-block">&nbsp;</label>
                       <button type="submit" class="btn btn-primary">

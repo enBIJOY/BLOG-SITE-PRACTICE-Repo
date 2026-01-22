@@ -49,3 +49,7 @@ Route::get('political/', [PagesController::class,'political'])->name('political'
 
 Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
 Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
+
+
+Route::get('/xmltext',[PagesController::class, 'xmltext'])->name('xmltext');
+
