@@ -181,7 +181,7 @@
                   <div class="form-text mt-4">
                     We respect your privacy. We ensure your safety.
                   </div>
-                  <div id="responseMessage" class="mt-3"></div>
+                  <div class="responseMessage"></div>
                 </form>
               </div>
             </div>

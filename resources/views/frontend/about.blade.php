@@ -39,34 +39,36 @@
                 <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
-                <form class="ajax-form" data-action="{{ route('newsletter') }}">
+                <!-- <form class="ajax-form" data-action="{{ route('newsletter') }}">
                     @csrf
                     <input type="text" name="name" />
                     <input type="email" name="email" />
                     <button type="submit">Subscribe</button>
                     <div class="responseMessage"></div>
-                </form>
-                <!-- <form class="ajax-form" data-action="{{ route('newsletter') }}">
+                </form> -->
+                <form class="ajax-form" data-action="{{ route('newsletter') }}">
                     @csrf
-                    <div class="form-floating mb-3">
-                        <input type="name" class="form-control" id="floatingInput" placeholder="Tareq bil">
-                        <label for="floatingInput">Full Name</label>
+                    <div class="mb-3">
+                        <label for="">Full Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Email Address</label>
+                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email">
+                    </div>
+                    <!-- <div class="form-floating mb-3">
+                        <label >Full Name</label>
+                        <input type="text" class="form-control" placeholder="Tareq bil">
                     </div>   
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                
-                    <div class="checkbox mb-3">
-                        <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                        </label>
-                    </div>
+                        <label>Email address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div> -->
                         <button class="w-100 btn btn-lg btn-primary" type="submit">submit</button>
                         <hr class="my-4">
                         <small class="text-muted">By clicking submit, you agree to the terms of use.</small>
-                    <div class="responseMessage mt-3"></div>
-                </form> -->
+                    <div class="responseMessage"></div>
+                </form>
             </div>
         </div>
     </div>
