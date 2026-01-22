@@ -5,14 +5,98 @@
 
 
 
+<!-- <section id="home" class="hero-section-wrapper hero-section-wrapper-1"> -->
+
+  <!-- <div id="heroSlider" class="carousel slide hero-section hero-style-1" data-bs-ride="carousel" data-bs-interval="4000"> -->
+
+    <!-- 🔵 Indicators -->
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+    </div> -->
+
+    <!-- 🖼️ Slides -->
+    <!-- <div class="carousel-inner"> -->
+
+      <!-- Slide 1 -->
+      <!-- <div class="carousel-item active">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="hero-content-wrapper">
+                <h2>Welcome to Our Dashboard</h2>
+                <p>This is first slider content.</p>
+                <a href="#" class="button button-lg radius-50">Get Started</a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <div class="hero-image">
+                <img src="{{ ('base/img/custom/dashboard1.jpg') }}" style="width:100%;" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Slide 2 -->
+      <!-- <div class="carousel-item">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="hero-content-wrapper">
+                <h2>Manage Everything Easily</h2>
+                <p>Second slider description here.</p>
+                <a href="#" class="button button-lg radius-50">Learn More</a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <div class="hero-image">
+                <img src="{{ asset('base/img/hero/hero-1/hero-img.svg') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Slide 3 -->
+      <!-- <div class="carousel-item">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="hero-content-wrapper">
+                <h2>Beautiful & Responsive Design</h2>
+                <p>Third slider text goes here.</p>
+                <a href="#" class="button button-lg radius-50">Explore</a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-end">
+              <div class="hero-image">
+                <img src="{{ asset('base/img/hero/hero-1/hero-img.svg') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+
+    <!-- ⬅️➡️ Arrows -->
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+</section> -->
+
 
 <section id="home" class="hero-section-wrapper hero-section-wrapper-1">
 
-      <!-- ========================= header-4 start ========================= -->
-      
-      <!-- ========================= header-4 end ========================= -->
-
-      <!-- ========================= hero-1 start ========================= -->
       <div class="hero-section hero-style-1">
         <div class="container">
           <div class="row">
@@ -37,7 +121,6 @@
           <img src="{{('base/img/hero/hero-1/shape-4.svg')}}" alt="" class="shape shape-4">
         </div>
       </div>
-      <!-- ========================= hero-1 end ========================= -->
     </section>
     <!-- ========================= hero-section-wrapper-1 end ========================= -->
 
