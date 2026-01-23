@@ -2,97 +2,75 @@
 
 @section('title','Base-Blog-Home')
 @section('content')
+<div class="p-2 mt-5 text-center">
+  <!-- <h1>Blog Project Practice!</h1> -->
+</div>
 
-
-
-<!-- <section id="home" class="hero-section-wrapper hero-section-wrapper-1"> -->
-
-  <!-- <div id="heroSlider" class="carousel slide hero-section hero-style-1" data-bs-ride="carousel" data-bs-interval="4000"> -->
-
-    <!-- 🔵 Indicators -->
-    <!-- <div class="carousel-indicators">
-      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
-    </div> -->
-
-    <!-- 🖼️ Slides -->
-    <!-- <div class="carousel-inner"> -->
-
-      <!-- Slide 1 -->
-      <!-- <div class="carousel-item active">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="hero-content-wrapper">
-                <h2>Welcome to Our Dashboard</h2>
-                <p>This is first slider content.</p>
-                <a href="#" class="button button-lg radius-50">Get Started</a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-end">
-              <div class="hero-image">
-                <img src="{{ ('base/img/custom/dashboard1.jpg') }}" style="width:100%;" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- Slide 2 -->
-      <!-- <div class="carousel-item">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="hero-content-wrapper">
-                <h2>Manage Everything Easily</h2>
-                <p>Second slider description here.</p>
-                <a href="#" class="button button-lg radius-50">Learn More</a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-end">
-              <div class="hero-image">
-                <img src="{{ asset('base/img/hero/hero-1/hero-img.svg') }}" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- Slide 3 -->
-      <!-- <div class="carousel-item">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="hero-content-wrapper">
-                <h2>Beautiful & Responsive Design</h2>
-                <p>Third slider text goes here.</p>
-                <a href="#" class="button button-lg radius-50">Explore</a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-end">
-              <div class="hero-image">
-                <img src="{{ asset('base/img/hero/hero-1/hero-img.svg') }}" alt="">
-              </div>
-            </div>
-          </div>
+<div class="container-fluid p-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{('base/img/carousel/p12.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
         </div>
       </div>
-
-    </div> -->
-
-    <!-- ⬅️➡️ Arrows -->
-    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p10.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p3.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p4.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p12.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p6.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{('base/img/carousel/p7.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-warning">First slide label</h2>
+          <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-
-    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
     </button>
-
   </div>
+</div>
 
-</section> -->
+
 
 
 <section id="home" class="hero-section-wrapper hero-section-wrapper-1">

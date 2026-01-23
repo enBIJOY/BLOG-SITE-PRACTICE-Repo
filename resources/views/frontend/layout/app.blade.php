@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{('base/img/favicon.svg')}}"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Place favicon.ico in the root directory -->
 
     <!-- ========================= CSS here ========================= -->
@@ -16,6 +18,8 @@
     <link rel="stylesheet" href="{{('base/css/animate.css')}}"/>
     <link rel="stylesheet" href="{{('base/css/lindy-uikit.css')}}"/>
     <link rel="stylesheet" href="{{('base/css/base-style.css')}}"/>
+    <link rel="stylesheet" href="{{('css/custom.css')}}"/>
+
   </head>
   <body>
     <!--[if lte IE 9]>
