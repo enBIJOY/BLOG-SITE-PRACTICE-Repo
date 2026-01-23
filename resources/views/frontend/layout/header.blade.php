@@ -60,12 +60,12 @@
                     </ul>
                     
                   </div>
-                  <div class="header-search">
+                  <!-- <div class="header-search">
                     <a href="#0"> <i class="lni lni-search-alt"></i> </a>
                     <form action="#">
                       <input type="text" placeholder="Type for search...">
                     </form>
-                  </div>
+                  </div> -->
                   <!-- navbar collapse -->
                 </nav>
                 <!-- navbar -->
