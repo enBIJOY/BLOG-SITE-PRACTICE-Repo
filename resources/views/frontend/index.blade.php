@@ -72,43 +72,17 @@
 
 
 
-<section id="home" class="hero-section-wrapper hero-section-wrapper-1">
 
-      <div class="hero-section hero-style-1">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="hero-content-wrapper">
-                <h2>You are using free lite version of the template</h2>
-                <p>Please, purchase full version of the template to get all pages and features.</p>
-                  <a href="https://rebrand.ly/base-gg" rel="nofollow" target="_blank" class="button button-lg radius-50">Get Started</a>
-              </div>
-            </div>
-            <div class="col-lg-6 align-self-end">
-              <div class="hero-image">
-                <img src="{{('base/img/hero/hero-1/hero-img.svg')}}" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="shapes">
-          <img src="{{('base/img/hero/hero-1/shape-1.svg')}}" alt="" class="shape shape-1">
-          <img src="{{('base/img/hero/hero-1/shape-2.svg')}}" alt="" class="shape shape-2">
-          <img src="{{('base/img/hero/hero-1/shape-3.svg')}}" alt="" class="shape shape-3">
-          <img src="{{('base/img/hero/hero-1/shape-4.svg')}}" alt="" class="shape shape-4">
-        </div>
-      </div>
-    </section>
     <!-- ========================= hero-section-wrapper-1 end ========================= -->
 
     <!-- ========================= feature style-3 start ========================= -->
-    <section id="features" class="feature-section feature-style-3">
+    <section id="LetestNews" class="feature-section feature-style-3">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-8">
             <div class="section-title text-center mb-60">
-              <h3 class="mb-15">Awesome Features</h3>
-              <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+              <h3 class="mb-15">Latest News</h3>
+              <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! designing and managing a website that doesn’t get results. Happiness</p>
             </div>
           </div>
         </div>

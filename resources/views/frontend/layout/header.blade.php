@@ -32,19 +32,22 @@
                         </ul>
                       </li> -->
                       <li class="nav-item">
-                        <a class="page-scroll  text-white" href="{{ route('blog') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
-                        aria-expanded="false" aria-label="Toggle navigation">Blogs
+                        <a class="page-scroll  text-white" href="{{ ('') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
+                        aria-expanded="false" aria-label="Toggle navigation">News
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>
                           </div>
                         </a>
                         <ul class="sub-menu collapse" id="sub-nav2">
-                          <li><a href="{{ route('sport') }}">Sports</a></li>
-                          <li><a href="{{ route('technology') }}">Technology</a></li>
-                          <li><a href="{{ route('nature') }}">Nature</a></li>
-                          <li><a href="{{ route('political') }}">Political</a></li>
-                          <li><a href="{{ route('blog') }}">Blog Page</a></li>
+                          <li><a href="{{ route('sport') }}">Sports news</a></li>
+                          <li><a href="{{ route('technology') }}">Technology news</a></li>
+                          <li><a href="{{ route('nature') }}">Nature news</a></li>
+                          <li><a href="{{ route('political') }}">Political news</a></li>
+                          <li><a href="{{ route('blog') }}">Letest News</a></li>
                         </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="page-scroll text-white" href="{{ route('blog') }}">Blog</a>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll text-white" href="{{ route('about') }}">About Us</a>
