@@ -2,12 +2,13 @@
       <div class="container">
         <div class="widget-wrapper">
           <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="col-xl-4 col-lg-4 col-md-4">
               <div class="footer-widget">
                 <div class="logo">
                   <a href="#0"> <img src="assets/img/logo/logo.svg" alt=""> </a>
                 </div>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nulla placerat amet amet congue.</p>
+                <h5 class="text-white">Address</h5>
+                <p class="desc">00/01 House, Adabor-17, Mohammadpur <br> Dhaka-1207, Bangladesh <br>St. John’s, NL, Canada </p>
                 <ul class="socials">
                   <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
                   <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li>
@@ -16,45 +17,27 @@
                 </ul>
               </div>
             </div>
-            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
-              <div class="footer-widget">
-                <h6>Quick Link</h6>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+              <div class="footer-widget text-center">
+                <!-- <h6>Quick Link</h6>
                 <ul class="links">
                   <li> <a href="#0">Home</a> </li>
                   <li> <a href="#0">About</a> </li>
                   <li> <a href="#0">Service</a> </li>
                   <li> <a href="#0">Testimonial</a> </li>
                   <li> <a href="#0">Contact</a> </li>
-                </ul>
+                </ul> -->
               </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <div class="footer-widget">
-                <h6>Services</h6>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+              <div class="footer-widget ">
+                <h6>Quick Links</h6>
                 <ul class="links">
-                  <li> <a href="#0">Web Design</a> </li>
-                  <li> <a href="#0">Web Development</a> </li>
-                  <li> <a href="#0">Seo Optimization</a> </li>
-                  <li> <a href="#0">Blog Writing</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget">
-                <h6>Download App</h6>
-                <ul class="download-app">
-                  <li>
-                    <a href="#0">
-                      <span class="icon"><i class="lni lni-apple"></i></span>
-                      <span class="text">Download on the <b>App Store</b> </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#0">
-                      <span class="icon"><i class="lni lni-play-store"></i></span>
-                      <span class="text">GET IT ON <b>Play Store</b> </span>
-                    </a>
-                  </li>
+                  <li> <a href="{{ url('/') }}">Home</a> </li>
+                  <li> <a href="{{ route('about')}}">About</a> </li>
+                  <li> <a href="{{ route('letestNews')}}">News</a> </li>
+                  <li> <a href="{{ route('blog')}}">Blog</a> </li>
+                  <li> <a href="{{ route('contact') }}">Contact</a> </li>
                 </ul>
               </div>
             </div>
