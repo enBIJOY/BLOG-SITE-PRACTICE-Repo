@@ -49,6 +49,10 @@ Route::get('/nature',[PagesController::class, 'nature'])->name('nature');
 Route::get('/political', [PagesController::class,'political'])->name('political');
 
 Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('newsletter');
+Route::middleware(['auth'])->prefix('admin')->group(function () {
+    Route::get('/newsletters', [NewsletterController::class, 'index'])
+        ->name('admin.newsletters');
+});
 Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
 
 

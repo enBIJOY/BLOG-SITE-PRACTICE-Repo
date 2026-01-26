@@ -23,4 +23,10 @@ class NewsletterController extends Controller
             'message' => 'Thank you for subscribing!'
         ]);
     }
+
+    public function index()
+    {
+        $newsletters = Newsletter::latest()->get();
+        return view('dashboard.newsletter', compact('newsletters'));
+    }
 }

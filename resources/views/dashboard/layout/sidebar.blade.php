@@ -6,7 +6,7 @@
           <a href="{{ url('dashboard') }}" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="{{('admin/assets/img/AdminLTELogo.png')}}"
+              src="{{asset('admin/assets/img/AdminLTELogo.png')}}"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
@@ -365,7 +365,7 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a href="./docs/faq.html" class="nav-link">
+                <a href="{{ route('admin.newsletters') }}" class="nav-link">
                   <i class="nav-icon bi bi-caret-right"></i>
                   <p>Newsletter</p>
                 </a>
