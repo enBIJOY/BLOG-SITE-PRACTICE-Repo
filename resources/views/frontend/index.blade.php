@@ -139,7 +139,7 @@
 		<!-- ========================= feature style-3 end ========================= -->
 
     <!-- ========================= about style-5 start ========================= -->
-    <section id="about" class="about-section about-style-5" style="background-image: url('{{('base/img/about/about-5/about-img.jpg')}}')">
+    <!-- <section id="about" class="about-section about-style-5" style="background-image: url('{{('base/img/about/about-5/about-img.jpg')}}')">
       <div class="container">
         <div class="row">
           <div class="col-xl-6 col-lg-8 col-md-10">
@@ -153,7 +153,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ========================= about style-5 end ========================= -->
 
 		<!-- ========================= team style-6 start ========================= -->
@@ -172,17 +172,12 @@
                 </div>
                 <form class="ajax-form" data-action="{{ route('newsletter') }}">
                   @csrf
-                  <div class="row g-3 align-items-center">
-                    <div class="col-md-4">
-                        <label class="form-label">Full Name</label>
-                        <input type="text" class="form-control" name="name" placeholder="Enter Your Name" required>
-                    </div>
-                    <div class="col-md-5">
-                        <label class="form-label">Email Address</label>
-                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
+                  <div class="row g-3 align-items-end">
+                    <div class="col-md-9">
+                      <label class="form-label">Email Address</label>
+                      <input type="email" class="form-control" name="email" placeholder="Enter your email" required >
                     </div>
                     <div class="col-md-3 d-grid">
-                      <label class="form-label d-block">&nbsp;</label>
                       <button type="submit" class="btn btn-primary">
                         Subscribe
                       </button>
