@@ -61,6 +61,6 @@
           </div>
         </div>
         <div class="copyright-wrapper">
-          <p>Design and Developed by <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> Built-with <a href="https://rebrand.ly/ud-lindy" rel="nofollow" target="_blank">Lindy UI Kit</a></p>        </div>
+          <p>Design and Developed by <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Bijoy</a> Built-with <a href="https://laravel.com/" rel="nofollow" target="_blank">Laravel❤</a></p>        </div>
       </div>
     </footer>
