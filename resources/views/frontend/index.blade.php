@@ -198,7 +198,7 @@
     <!-- ========================= team style-6 end ========================= -->
 
         <!-- ========================= clients-logo start ========================= -->
-        <section class="clients-logo-section pb-100">
+        <!-- <section class="clients-logo-section pb-100">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -215,6 +215,6 @@
               </div>
             </div>
           </div>
-    </section>
+    </section> -->
 
     @endsection
