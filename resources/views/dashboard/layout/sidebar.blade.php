@@ -31,7 +31,7 @@
               id="navigation"
             >
               
-                <a href="#" class="nav-link active">
+                <a href="{{ url('dashboard') }}" class="nav-link active">
                   <p> 
                     <strong>
                         Dashboard
@@ -365,13 +365,13 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a href="{{ route('admin.newsletters') }}" class="nav-link">
+                <a href="{{ route('newsletters') }}" class="nav-link">
                   <i class="nav-icon bi bi-caret-right"></i>
                   <p>Newsletter</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./docs/faq.html" class="nav-link">
+                <a href="{{ route('allContact') }}" class="nav-link">
                   <i class="nav-icon bi bi-caret-right"></i>
                   <p>Contact</p>
                 </a>

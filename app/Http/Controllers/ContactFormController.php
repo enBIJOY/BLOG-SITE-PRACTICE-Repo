@@ -25,4 +25,10 @@ class ContactFormController extends Controller
             'message' => 'Thank you for Contact Us!'
         ]);
     }
+
+    public function allContact()
+    {
+        $Contacts = ContactForm::latest()->get();
+        return view('dashboard.allContact', compact('Contacts'));
+    }
 }

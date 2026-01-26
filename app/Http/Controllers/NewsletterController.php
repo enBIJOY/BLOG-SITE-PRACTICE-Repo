@@ -24,7 +24,7 @@ class NewsletterController extends Controller
         ]);
     }
 
-    public function index()
+    public function newsletters()
     {
         $newsletters = Newsletter::latest()->get();
         return view('dashboard.newsletter', compact('newsletters'));
