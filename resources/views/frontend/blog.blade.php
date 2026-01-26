@@ -2,12 +2,13 @@
 @section('title','Blog Page')
 @section('content')
 
-<section class="pt-5 text-center container">
+<section class="pt-5 container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Blog Page</h1>
-        <p class="lead text-muted">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p>
+        <h1 class="fw-light text-center">Blog Page</h1>
+        <p class="lead text-muted mt-2">Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses</p>
       </div>
+        <p class="lead text-muted mt-5">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide. Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p>
     </div>
   </section>
 
