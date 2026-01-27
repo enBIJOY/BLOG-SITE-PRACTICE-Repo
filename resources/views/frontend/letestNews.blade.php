@@ -6,6 +6,7 @@
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Letest News</h1>
+        <hr>
         <p class="lead text-muted">Global markets stabilized as tech stocks rose, Bangladesh advanced infrastructure projects, sports leagues resumed, climate talks continued, and businesses embraced AI, signaling cautious optimism amid geopolitical and economic uncertainty worldwide.</p>
       </div>
     </div>

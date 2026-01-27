@@ -9,12 +9,12 @@ class NewsletterController extends Controller
 {
     public function newsletter(Request $request){
         $request->validate([
-            'name'=>'required',
+            // 'name'=>'required',
             'email'=>'required|email|unique:newsletters,email'
         ]);
 
         Newsletter::create([
-            'name'=>$request->name,
+            // 'name'=>$request->name,
             'email'=>$request->email
         ]);
 

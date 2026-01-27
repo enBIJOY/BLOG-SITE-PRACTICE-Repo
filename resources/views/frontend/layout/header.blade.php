@@ -12,7 +12,6 @@
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
                   </button>
-
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent4">
                     <ul id="nav4" class="navbar-nav ml-auto">
                       <!-- <li class="nav-item">
@@ -61,7 +60,6 @@
                             <a class="nav-link px-2 text-white" href="{{('register')}}">Sign-Up</a>
                         </li>
                     </ul>
-                    
                   </div>
                   <!-- <div class="header-search">
                     <a href="#0"> <i class="lni lni-search-alt"></i> </a>

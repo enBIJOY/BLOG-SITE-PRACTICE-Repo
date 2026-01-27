@@ -9,7 +9,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="text-center mb-4">
-                    <h2 class="fw-bold">Contact Us</h2>
+                    <h2 class="fw-bold">Get In Touch</h2>
                     <p class="text-muted">Send us a message and we’ll get back to you.</p>
                 </div>
                 <!-- Alert Message -->
