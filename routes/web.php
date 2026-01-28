@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\GeneralSettingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,4 +54,7 @@ Route::post('/newsletter', [NewsletterController::class,'newsletter'])->name('ne
 Route::post('/contactform', [ContactFormController::class,'contactform'])->name('contactform');
 
 Route::get('/xmltext',[PagesController::class, 'xmltext'])->name('xmltext');
+
+//generalSettings
+Route::resource('generalSettings', GeneralSettingController::class);
 

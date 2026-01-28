@@ -58,6 +58,6 @@
           </div>
         </div>
         <div class="copyright-wrapper">
-          <p>Design and Developed by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤</a></p>        </div>
+          <p>Design and Developed by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤ </a>©2026</p></div>
       </div>
     </footer>
