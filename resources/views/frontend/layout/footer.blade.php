@@ -11,7 +11,7 @@
                 <div class="py-1 mb-2">
                   <h5 class="text-white mb-1">Address</h5>
                   <p>00/01 House, Adabor-17, Mohammadpur</p>
-                  <p>Dhaka-1207, Bangladesh</p>
+                  <p>Dhaka-1217, Bangladesh</p>
                   <p>St. John’s, NL, Canada</p>
                   <h5 class="text-white my-1">Phone</h5>
                   <p>+880-1998998998</p>
@@ -57,7 +57,12 @@
             </div>
           </div>
         </div>
-        <div class="copyright-wrapper">
-          <p>Design and Developed by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤ </a>©2026</p></div>
+        <div class="copyright-wrapper text-center text-white">
+          <!-- <strong>
+            Copyright &copy; 2020-2026&nbsp;
+            <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a>.
+          </strong>
+          All rights reserved. -->
+          <p>All rights reserved by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤ </a>©2026</p></div>
       </div>
     </footer>
