@@ -18,10 +18,10 @@
                   <p>+001-709-699-9613</p>
                 </div>
                 <ul class="socials my-0 py-0">
-                  <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-instagram-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-linkedin-original"></i> </a> </li>
+                  <li> <a href="https://www.facebook.com/dgtalspace"> <i class="lni lni-facebook-filled"></i> </a> </li>
+                  <li> <a href="https://www.youtube.com/@successmindinstitute"> <i class="lni lni-youtube"></i> </a> </li>
+                  <li> <a href="https://www.instagram.com/dgtalspace"> <i class="lni lni-instagram-filled"></i> </a> </li>
+                  <li> <a href="https://www.linkedin.com/company/dgtalspace/"> <i class="lni lni-linkedin-original"></i> </a> </li>
                 </ul>
               </div>
             </div>
@@ -46,10 +46,11 @@
                   <h5 class="text-white mb-1">Quick Links</h5>
                   <ul class="links">
                     <li> <a href="{{ url('/') }}">Home</a> </li>
-                    <li> <a href="{{ route('about')}}">About</a> </li>
-                    <li> <a href="{{ route('letestNews')}}">News</a> </li>
-                    <li> <a href="{{ route('blog')}}">Blog</a> </li>
-                    <li> <a href="{{ route('contact') }}">Contact</a> </li>
+                    <li> <a href="{{ route('about')}}">About Us</a> </li>
+                    <li> <a href="{{ route('letestNews')}}">Recent News</a> </li>
+                    <li> <a href="{{ route('blog')}}">Blog Article</a> </li>
+                    <li> <a href="{{ route('contact') }}">Contact Us</a> </li>
+                    <li> <a href="{{ ('login') }}">Login to dashboard</a> </li>
                   </ul>
                 </div>
               </div>
@@ -57,6 +58,6 @@
           </div>
         </div>
         <div class="copyright-wrapper">
-          <p>Design and Developed by <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://laravel.com/" rel="nofollow" target="_blank">Laravel❤</a></p>        </div>
+          <p>Design and Developed by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤</a></p>        </div>
       </div>
     </footer>

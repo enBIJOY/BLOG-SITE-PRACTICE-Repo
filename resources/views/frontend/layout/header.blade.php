@@ -5,7 +5,11 @@
               <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
                   <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{('base/img/logo/logo.svg')}}" alt="Logo" />
+                    <ul>
+                      <li>
+                        <h3 class="text-white">  <||/></h3>
+                      </li>
+                    </ul>
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent4" aria-controls="navbarSupportedContent4" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>

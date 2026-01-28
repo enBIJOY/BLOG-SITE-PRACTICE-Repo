@@ -71,7 +71,8 @@
   </head>
   <!--end::Head-->
   <!--begin::Body-->
-  <body class="layout-fixed sidebar-expand-lg sidebar-open bg-body-tertiary">
+  <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+    
     <!--begin::App Wrapper-->
     <div class="app-wrapper">
       
@@ -84,12 +85,13 @@
     <!--begin::Script-->
     <!--begin::Third Party Plugin(OverlayScrollbars)-->
 
-    @stack('script')
+    
 
     <script src="{{ asset('admin/plugins/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('admin/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('admin/js/adminlte.min.js') }}"></script>
     
+    @stack('scriptjs')
 
     @include('dashboard.layout.footer')
     

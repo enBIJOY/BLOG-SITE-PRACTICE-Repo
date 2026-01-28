@@ -383,13 +383,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./docs/faq.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-question-circle-fill"></i>
                   <p>FAQ</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./docs/license.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-patch-check-fill"></i>
                   <p>License</p>
                 </a>

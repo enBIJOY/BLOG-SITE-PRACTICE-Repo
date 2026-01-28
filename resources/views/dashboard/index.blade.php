@@ -448,7 +448,7 @@
 <!--end::App Main-->
 
 
-    @push('script')
+    @push('scriptjs')
         <script
         src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/browser/overlayscrollbars.browser.es6.min.js"
         crossorigin="anonymous"
