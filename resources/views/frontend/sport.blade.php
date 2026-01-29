@@ -14,6 +14,14 @@
       </div>
   </section>
 
+  <div class="hero-slider-wrapper">
+    <div class="hero-slider">
+      <div><img src="{{ asset('base/img/carousel/p10.jpg') }}"></div>
+      <div><img src="{{ asset('base/img/carousel/p3.jpg') }}"></div>
+      <div><img src="{{ asset('base/img/carousel/p12.jpg') }}"></div>
+    </div>
+  </div>
+  
   <section>
     <div class="album py-5 bg-light">
       <div class="container">
@@ -68,6 +76,19 @@
       </div>
     </div>
   </section>
+  @push('scripts')
+    <script>
+    $(function () {
+      $('.hero-slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+        fade: false
+      });
+    });
+    </script>
+  @endpush
 
 </main>
 
