@@ -18,7 +18,8 @@ class GeneralSettingController extends Controller
     // PAGE LOAD
     public function index()
     {
-        $generalSettings = GeneralSetting::firstOrCreate([]);
+        $generalSettings = GeneralSetting::first();
+        // dd($generalSettings);
         return view('dashboard.generalSettings', compact('generalSettings'));
     }
 

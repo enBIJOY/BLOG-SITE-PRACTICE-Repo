@@ -56,13 +56,43 @@
                                 <label class="form-label">Address</label>
                                 <input type="text" value="{{ $generalSettings->address }}" placeholder="You Address" name="address" class="form-control">
                             </div>
+                                {{-- CURRENT LOGO --}}
                             <div class="mb-3">
-                                <label class="form-label">Logo</label>
-                                <input type="file" name="logo" class="form-control">
+                                <label class="form-label">Current Logo</label><br>
+
+                                @if($generalSettings->logo)
+                                    <img src="{{ asset('uploads/general/'.$generalSettings->logo) }}"
+                                        alt="Logo"
+                                        style="height:80px; border:1px solid #ddd; padding:5px">
+                                @else
+                                    <p class="text-muted">No logo uploaded</p>
+                                @endif
                             </div>
+
+                                {{-- CHANGE LOGO --}}
                             <div class="mb-3">
-                                <label class="form-label">Favicon</label>
-                                <input type="file" name="favicon" class="form-control">
+                                <label class="form-label">Change Logo</label>
+                                <input type="file" name="logo" class="form-control" onchange="previewLogo(this)">
+                                <img id="logoPreview" style="height:80px; display:none; margin-top:10px;">
+                            </div>
+                                {{-- CURRENT FAVICON --}}
+                            <div class="mb-3">
+                                <label class="form-label">Current Favicon</label><br>
+
+                                @if($generalSettings->favicon)
+                                    <img src="{{ asset('uploads/general/'.$generalSettings->favicon) }}"
+                                        alt="Favicon"
+                                        style="height:40px; border:1px solid #ddd; padding:5px">
+                                @else
+                                    <p class="text-muted">No favicon uploaded</p>
+                                @endif
+                            </div>
+
+                                {{-- CHANGE FAVICON --}}
+                            <div class="mb-3">
+                                <label class="form-label">Change Favicon</label>
+                                <input type="file" name="favicon" class="form-control" onchange="previewFavicon(this)">
+                                <img id="faviconPreview" style="height:40px; display:none; margin-top:10px;">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Meta Title</label>
@@ -98,3 +128,22 @@
         </div>
     </section>
 @endsection
+@push('scriptjs')
+<script>
+    function previewLogo(input) {
+        if (input.files && input.files[0]) {
+            document.getElementById('logoPreview').src =
+                URL.createObjectURL(input.files[0]);
+            document.getElementById('logoPreview').style.display = 'block';
+        }
+    }
+
+    function previewFavicon(input) {
+        if (input.files && input.files[0]) {
+            document.getElementById('faviconPreview').src =
+                URL.createObjectURL(input.files[0]);
+            document.getElementById('faviconPreview').style.display = 'block';
+        }
+    }
+</script>
+@endpush

@@ -5,6 +5,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\GeneralSettingController;
+use App\Models\GeneralSetting;
 
 /*
 |--------------------------------------------------------------------------

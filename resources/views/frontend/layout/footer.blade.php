@@ -10,11 +10,11 @@
                 </div> -->
                 <div class="py-1 mb-2">
                   <h5 class="text-white mb-1">Address</h5>
-                  <p>00/01 House, Adabor-17, Mohammadpur</p>
+                  <p>{{ GeneralSetting()->address }}</p>
                   <p>Dhaka-1217, Bangladesh</p>
                   <p>St. John’s, NL, Canada</p>
                   <h5 class="text-white my-1">Phone</h5>
-                  <p>{{ $generalSettings->phone }}</p>
+                  <p>{{ GeneralSetting()->phone }}</p>
                   <!-- <p>+001-709-699-9613</p> -->
                 </div>
                 <ul class="socials my-0 py-0">
@@ -63,6 +63,6 @@
             <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a>.
           </strong>
           All rights reserved. -->
-          <p>All rights reserved by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤ </a>©2026</p></div>
+          <p>All rights reserved by <a href="https://dgtalspace.com/" rel="nofollow" target="_blank">dgtalspace</a> Built-with <a href="https://github.com/enbijoy" rel="nofollow" target="_blank">Laravel❤ </a>©{{ GeneralSetting()->year }}</p></div>
       </div>
     </footer>

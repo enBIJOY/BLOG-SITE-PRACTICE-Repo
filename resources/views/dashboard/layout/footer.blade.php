@@ -5,7 +5,7 @@
         <!--end::To the end-->
         <!--begin::Copyright-->
         <strong>
-          Copyright &copy; 2020-2026&nbsp;
+          Copyright &copy; {{ GeneralSetting()->year }}&nbsp;
           <a href="https://dgtalspace.com/" class="text-decoration-none">dgtalSpace</a>.
         </strong>
         All rights reserved.

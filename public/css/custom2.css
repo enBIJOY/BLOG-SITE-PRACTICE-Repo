@@ -5,10 +5,13 @@
   height: 40px;
 }
 
+.hero-slider-wrapper {
+  position: relative;
+  overflow: hidden; /* scrollbar fix */
+}
 .hero-slider {
   width: 100%;
   height: 600px;
-  overflow: visible;
 }
 
 .hero-slider .slick-slide {

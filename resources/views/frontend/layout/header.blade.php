@@ -7,7 +7,7 @@
                   <a class="navbar-brand" href="{{ url('/') }}">
                     <ul>
                       <li>
-                        <h3 class="text-white">  <||/></h3>
+                        <h3 class="text-white">  <img src="{{ asset('uploads/general/'.GeneralSetting()->logo) }}" alt=""></h3>
                       </li>
                     </ul>
                   </a>
