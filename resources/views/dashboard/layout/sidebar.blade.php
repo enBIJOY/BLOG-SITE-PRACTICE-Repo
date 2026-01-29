@@ -390,8 +390,14 @@
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-patch-check-fill"></i>
+                  <i class="nav-icon bi bi-question-circle-fill"></i>
                   <p>License</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('generalSettings.index')}}" class="nav-link">
+                  <i class="nav-icon bi bi-patch-check-fill"></i>
+                  <p>GeneralSettings</p>
                 </a>
               </li>
             </ul>

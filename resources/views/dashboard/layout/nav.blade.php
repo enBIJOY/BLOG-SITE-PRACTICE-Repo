@@ -156,7 +156,9 @@
                   alt="User Image"
                 />
                 <span class="d-none d-md-inline">
-                    {{ auth()->user()->name }}
+                    @auth
+                        {{ auth()->user()->name }}
+                    @endauth
                 </span>
                 <i class="nav-arrow bi bi-chevron-down"></i>
               </a>
@@ -169,10 +171,12 @@
                     alt="User Image"
                   />
                     <p>
+                      @auth
                       {{ auth()->user()->name }}
                       <small>
                           Member since {{ auth()->user()->created_at->format('M Y') }}
                       </small>
+                      @endauth
                     </p>
                 </li>
                 <!--end::User Image-->

@@ -7,19 +7,28 @@ use App\Models\GeneralSetting;
 
 class GeneralSettingController extends Controller
 {
+    // public function index()
+    // {
+    //     return view('dashboard.generalSettings', [
+
+    //         'generalSettings' => GeneralSetting::first()
+    //     ]);
+    // }
+    
     // PAGE LOAD
     public function index()
     {
         $generalSettings = GeneralSetting::firstOrCreate([]);
-        return view('admin.generalSettings.index', compact('generalSettings'));
+        return view('dashboard.generalSettings', compact('generalSettings'));
     }
 
-    // FIRST TIME SAVE (optional)
-    // public function store(Request $request)
-    // {
-    //     GeneralSetting::create($request->all());
-    //     return redirect()->route('generalSettings.index');
-    // }
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\GeneralSetting  $generalSetting
+     * @return \Illuminate\Http\Response
+     */
 
     // UPDATE SETTINGS
     public function update(Request $request, $id)

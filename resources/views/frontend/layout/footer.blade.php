@@ -14,8 +14,8 @@
                   <p>Dhaka-1217, Bangladesh</p>
                   <p>St. John’s, NL, Canada</p>
                   <h5 class="text-white my-1">Phone</h5>
-                  <p>+880-1998998998</p>
-                  <p>+001-709-699-9613</p>
+                  <p>{{ $generalSettings->phone }}</p>
+                  <!-- <p>+001-709-699-9613</p> -->
                 </div>
                 <ul class="socials my-0 py-0">
                   <li> <a href="https://www.facebook.com/dgtalspace"> <i class="lni lni-facebook-filled"></i> </a> </li>
