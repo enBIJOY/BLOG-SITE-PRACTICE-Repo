@@ -11,7 +11,7 @@
                 <div class="py-1 mb-2">
                   <h5 class="text-white mb-1">Address</h5>
                   <p>{{ GeneralSetting()->address }}</p>
-                  <p>Dhaka-1217, Bangladesh</p>
+                  <p>-- Dhaka-1217, Bangladesh</p>
                   <p>{{ GeneralSetting()->address2 }}</p>
                   <h5 class="text-white my-1">Phone</h5>
                   <p>{{ GeneralSetting()->phone }}</p>
