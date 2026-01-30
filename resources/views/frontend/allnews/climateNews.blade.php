@@ -1,6 +1,6 @@
 @extends('frontend.layout.app')
 
-@section('title','Climate News')
+@section('title','Climate-News | BlogPage')
 
 @section('content')
 <div class="container mt-5">
