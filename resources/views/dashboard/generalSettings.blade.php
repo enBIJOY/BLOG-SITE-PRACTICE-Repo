@@ -10,34 +10,26 @@
 @endsection
 
 
-{{-- Breadcrumb --}}
-@section('breadcrumb')
-     <h2 class="content-header-title float-left mb-0">Admin Dashboard</h2>
-    <div class="breadcrumb-wrapper">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="{{ route('dashboard') }}">Home</a>
-            </li>
-            <li class="breadcrumb-item active">
-                Gerneral Settings
-            </li>
-        </ol>
-    </div>
-@endsection
-
 {{-- Page Content --}}
 @section('content')
+<h2 class="text-center mt-2">General Settings</h2>
     <section id="basic-vertical-layouts">
         <div class="row">
             <div class="col-md-7 col-12 m-auto">
                 <div class="card">
-                    <div class="card-header">
-                        <h4 class="card-title">General Settings</h4>
+                    <div>
+                        <!-- <h5 class="card-title text-center">General Settings</h5> -->
                         @if (session('success'))
-                        <div class="alert alert-success">{{ session('success') }}</div>
+                        <x-alert type="success">
+                            Settings updated successfully
+                        </x-alert>
+                        <!-- <div class="alert alert-success">{{ session('success') }}</div> -->
                         @endif
                         @if (session('warning'))
-                            <div class="alert alert-warning">{{ session('warning') }}</div>
+                        <x-alert type="warning">
+                            Something Went Wrong
+                        </x-alert>
+                            <!-- <div class="alert alert-warning">{{ session('warning') }}</div> -->
                         @endif
                     </div>
                     <div class="card-body">
@@ -110,17 +102,7 @@
                                 <label class="form-label">year</label>
                                 <input type="text" value="{{ $generalSettings->year }}" placeholder="Change Year" name="year" class="form-control">
                             </div>
-                            <!-- <input type="text" name="address" value="{{ $generalSettings->address }}" placeholder="Address">
-
-                            <input type="file" name="logo">
-                            <input type="file" name="favicon">
-
-                            <input type="text" name="meta_title" value="{{ $generalSettings->meta_title }}">
-                            <input type="text" name="meta_description" value="{{ $generalSettings->meta_description }}">
-                            <input type="text" name="meta_keywords" value="{{ $generalSettings->meta_keywords }}">
-                            <input type="text" name="year" value="{{ $generalSettings->year }}"> -->
-
-                            <button type="submit">Save</button>
+                            <x-button onclick="return confirm('Sure?')">Save</x-button>
                         </form>
                     </div>
                 </div>

@@ -63,7 +63,7 @@ class GeneralSettingController extends Controller
 
         $settings->update($data);
 
-        return back()->with('success', 'General settings updated');
+        return back()->with('success', 'Messege show from component');
     }
 
     public function destroy(GeneralSetting $generalSetting)
