@@ -17,6 +17,8 @@ class GeneralSettingSeeder extends Seeder
         GeneralSetting::truncate();
         GeneralSetting::create([
             'phone' => "=0193333333333",
+            'phone' => "=0193333333333",
+            'address' => "10/10 Mohammadpur",
             'address' => "10/10 Mohammadpur",
             'logo' => "logo.png",
             'favicon' => "favicon.png",

@@ -169,6 +169,11 @@
                   <p class="text-muted mb-0">
                     Get the latest updates and offers straight to your inbox.
                   </p>
+                  @if (session('success'))
+                  <x-alert type="success">
+                      Settings updated successfully
+                  </x-alert>
+                  @endif
                 </div>
                 <form class="ajax-form" data-action="{{ route('newsletter') }}">
                   @csrf
@@ -178,15 +183,13 @@
                       <input type="email" class="form-control" name="email" placeholder="Enter your email" required >
                     </div>
                     <div class="col-md-3 d-grid">
-                      <button type="submit" class="btn btn-primary">
-                        Subscribe
-                      </button>
+                      <x-button variant="primary" >Submit</x-button>
                     </div>
                   </div>
                   <div class="form-text mt-4">
                     We respect your privacy. We ensure your safety.
                   </div>
-                  <div class="responseMessage"></div>
+                  <div class="responseMessage" ></div>
                 </form>
               </div>
             </div>

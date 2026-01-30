@@ -20,13 +20,13 @@
                     <div>
                         <!-- <h5 class="card-title text-center">General Settings</h5> -->
                         @if (session('success'))
-                        <x-alert type="success">
+                        <x-alert type="success" timeout="5000">
                             Settings updated successfully
                         </x-alert>
                         <!-- <div class="alert alert-success">{{ session('success') }}</div> -->
                         @endif
                         @if (session('warning'))
-                        <x-alert type="warning">
+                        <x-alert type="warning" timeout="5000">
                             Something Went Wrong
                         </x-alert>
                             <!-- <div class="alert alert-warning">{{ session('warning') }}</div> -->
@@ -45,8 +45,16 @@
                                 <input type="text" value="{{ $generalSettings->phone }}" placeholder="+8800000000000" name="phone" class="form-control">
                             </div>
                             <div class="mb-3">
+                                <label class="form-label">Phone 2</label>
+                                <input type="text" value="{{ $generalSettings->phone2 }}" placeholder="+8800000000000" name="phone2" class="form-control">
+                            </div>
+                            <div class="mb-3">
                                 <label class="form-label">Address</label>
-                                <input type="text" value="{{ $generalSettings->address }}" placeholder="You Address" name="address" class="form-control">
+                                <input type="text" value="{{ $generalSettings->address }}" placeholder="Your Address" name="address" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Address 2</label>
+                                <input type="text" value="{{ $generalSettings->address2 }}" placeholder="Your Address" name="address2" class="form-control">
                             </div>
                                 {{-- CURRENT LOGO --}}
                             <div class="mb-3">
@@ -102,7 +110,7 @@
                                 <label class="form-label">year</label>
                                 <input type="text" value="{{ $generalSettings->year }}" placeholder="Change Year" name="year" class="form-control">
                             </div>
-                            <x-button onclick="return confirm('Sure?')">Save</x-button>
+                            <x-button variant="primary" onclick="return confirm('Sure?')">Save</x-button>
                         </form>
                     </div>
                 </div>

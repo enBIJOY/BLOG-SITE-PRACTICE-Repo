@@ -12,9 +12,10 @@
                   <h5 class="text-white mb-1">Address</h5>
                   <p>{{ GeneralSetting()->address }}</p>
                   <p>Dhaka-1217, Bangladesh</p>
-                  <p>St. John’s, NL, Canada</p>
+                  <p>{{ GeneralSetting()->address2 }}</p>
                   <h5 class="text-white my-1">Phone</h5>
                   <p>{{ GeneralSetting()->phone }}</p>
+                  <p>{{ GeneralSetting()->phone2 }}</p>
                   <!-- <p>+001-709-699-9613</p> -->
                 </div>
                 <ul class="socials my-0 py-0">

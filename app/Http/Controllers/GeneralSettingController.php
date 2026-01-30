@@ -36,7 +36,9 @@ class GeneralSettingController extends Controller
     {
         $request->validate([
             'phone' => 'nullable|string|max:15',
+            'phone2' => 'nullable|string|max:15',
             'address' => 'nullable|string',
+            'address2' => 'nullable|string',
             'logo' => 'nullable|image',
             'favicon' => 'nullable|image',
             'meta_title' => 'nullable|string|max:255',
