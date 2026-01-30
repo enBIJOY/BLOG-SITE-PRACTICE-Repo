@@ -76,7 +76,7 @@
     <!-- ========================= hero-section-wrapper-1 end ========================= -->
 
     <!-- ========================= feature style-3 start ========================= -->
-    <section id="LetestNews" class="feature-section feature-style-3">
+    <section id="LetestNews" class="feature-section feature-style-3 bg-light">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-8">
@@ -93,10 +93,11 @@
               <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-text">Climate Change: A Global Challenge Shaping Our Future</h5>
+                <p class="card-text">Exploring the causes, impacts, and solutions to climate change and why collective action today is essential for a sustainable future.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ route('letestNews') }}">Read more</a>
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="{{ route('climateNews') }}">Read more</a>
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>

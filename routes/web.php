@@ -1,11 +1,12 @@
 <?php
 
+use App\Models\GeneralSetting;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\AllNewsController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\GeneralSettingController;
-use App\Models\GeneralSetting;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,4 +59,6 @@ Route::get('/xmltext',[PagesController::class, 'xmltext'])->name('xmltext');
 
 //generalSettings
 Route::resource('generalSettings', GeneralSettingController::class);
+
+Route::get('/climateNews',[AllNewsController::class, 'climateNews'])->name('climateNews');
 
