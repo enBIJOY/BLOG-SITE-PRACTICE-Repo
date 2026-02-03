@@ -50,7 +50,7 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll text-white" href="{{ route('blog') }}">Blog</a>
+                        <a class="page-scroll text-white" href="{{ route('frontend.blogs') }}">Blog</a>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll text-white" href="{{ route('about') }}">About Us</a>

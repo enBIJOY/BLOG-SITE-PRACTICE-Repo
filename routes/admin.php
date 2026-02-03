@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\GeneralSettingController;
 
 
 Route::middleware([
@@ -17,4 +18,6 @@ Route::middleware([
         ->name('allContact');
     Route::get('/allUser', [UserController::class, 'allUser'])
         ->name('allUser');
+        //generalSettings
+    Route::resource('generalSettings', GeneralSettingController::class);
 });

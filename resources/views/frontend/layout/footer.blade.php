@@ -49,7 +49,7 @@
                     <li> <a href="{{ url('/') }}">Home</a> </li>
                     <li> <a href="{{ route('about')}}">About Us</a> </li>
                     <li> <a href="{{ route('letestNews')}}">Recent News</a> </li>
-                    <li> <a href="{{ route('blog')}}">Blog Article</a> </li>
+                    <li> <a href="#">Blog Article</a> </li>
                     <li> <a href="{{ route('contact') }}">Contact Us</a> </li>
                     <li> <a href="{{ ('login') }}">Login to dashboard</a> </li>
                   </ul>

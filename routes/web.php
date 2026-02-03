@@ -2,8 +2,10 @@
 
 use App\Models\GeneralSetting;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\AllNewsController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\GeneralSettingController;
@@ -57,8 +59,12 @@ Route::post('/contactform', [ContactFormController::class,'contactform'])->name(
 
 Route::get('/xmltext',[PagesController::class, 'xmltext'])->name('xmltext');
 
-//generalSettings
-Route::resource('generalSettings', GeneralSettingController::class);
+
 
 Route::get('/climateNews',[AllNewsController::class, 'climateNews'])->name('climateNews');
+
+
+Route::get('/blog', [PostController::class, 'index'])->name('frontend.blogs');
+Route::get('/blog/{slug}', [PostController::class, 'show'])->name('frontend.shows');
+Route::post('/comments', [CommentController::class, 'store'])->name('frontend.comment');
 
