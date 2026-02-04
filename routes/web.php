@@ -67,4 +67,4 @@ Route::get('/climateNews',[AllNewsController::class, 'climateNews'])->name('clim
 Route::get('/blog', [PostController::class, 'index'])->name('frontend.blogs');
 Route::get('/blog/{slug}', [PostController::class, 'show'])->name('frontend.shows');
 Route::post('/comments', [CommentController::class, 'store'])->name('frontend.comment');
-
+Route::get('/comments/{post}', [CommentController::class, 'getComments'])->name('comments.get');
