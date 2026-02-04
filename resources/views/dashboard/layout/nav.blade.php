@@ -48,29 +48,27 @@
 <!--end::Header-->
 
 
-<script>
-document.addEventListener('click', function (e) {
-    const toggleBtn = e.target.closest('[data-lte-toggle="sidebar"]');
-    if (!toggleBtn) return;
 
-    // AdminLTE toggle করার পরে একটু delay দিয়ে state পড়ি
-    setTimeout(() => {
-        if (document.body.classList.contains('sidebar-collapse')) {
-            localStorage.setItem('sidebarState', 'collapsed');
-        } else {
-            localStorage.setItem('sidebarState', 'expanded');
-        }
-    }, 50);
-});
-</script>
 <script>
-window.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('click', function (e) {
+      const toggleBtn = e.target.closest('[data-lte-toggle="sidebar"]');
+      if (!toggleBtn) return;
+
+      // AdminLTE toggle করার পরে একটু delay দিয়ে state পড়ি
+      setTimeout(() => {
+          if (document.body.classList.contains('sidebar-collapse')) {
+              localStorage.setItem('sidebarState', 'collapsed');
+          } else {
+              localStorage.setItem('sidebarState', 'expanded');
+          }
+      }, 0);
+  });
+  window.addEventListener('DOMContentLoaded', function () {
     const sidebarState = localStorage.getItem('sidebarState');
 
     if (sidebarState === 'collapsed') {
         document.body.classList.add('sidebar-collapse');
     }
-});
+  }); 
 </script>
-
 
