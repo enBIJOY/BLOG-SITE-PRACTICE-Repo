@@ -21,11 +21,8 @@
             </div>
         </div>
         <!--end::Row-->
-        <div class="justify-content-center p-5">
-            <div class="p-5">
-                <h1 class="p-5"><strong>Wellcome To Dashboard</strong></h1>
-            </div>
-        </div>
+        <div class="text-center p-5 mt-5">
+            <h1><strong>Wellcome To Dashboard</strong></h1>
         </div>
         <!--end::Container-->
     </div>
