@@ -16,9 +16,27 @@
 
   <div class="hero-slider-wrapper">
     <div class="hero-slider">
-      <div><img src="{{ asset('base/img/carousel/p10.jpg') }}"></div>
-      <div><img src="{{ asset('base/img/carousel/p3.jpg') }}"></div>
-      <div><img src="{{ asset('base/img/carousel/p12.jpg') }}"></div>
+      <div class="slide">
+        <img src="{{ asset('base/img/carousel/p10.jpg') }}" alt="">
+        <div class="slide-text">
+          <h1 class="text-white">Sports News</h1>
+          <p>All Sports in Once</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="{{ asset('base/img/carousel/p3.jpg') }}" alt="">
+        <div class="slide-text">
+          <h1 class="text-white">Sports News</h1>
+          <p>All Sports in Once</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="{{ asset('base/img/carousel/p12.jpg') }}" alt="">
+        <div class="slide-text">
+          <h1 class="text-white">Sports News</h1>
+          <p>All Sports in Once</p>
+        </div>
+      </div>
     </div>
   </div>
   
