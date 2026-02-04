@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -20,6 +21,9 @@ public function store(Request $request)
         ]);
 
         if ($validator->fails()) {
+            if ($request->ajax()) {
+                return response()->json(['errors' => $validator->errors()], 422);
+            }
             return redirect()->back()
                 ->withErrors($validator)
                 ->withInput();
@@ -34,6 +38,36 @@ public function store(Request $request)
             'parent_id' => $request->parent_id
         ]);
 
+        // Load relationships for AJAX response
+        if ($comment->parent_id) {
+            $comment->load('parent');
+        }
+
+        if ($request->ajax()) {
+            $commentHTML = view('frontend.comment', ['comment' => $comment])->render();
+            return response()->json([
+                'success' => true,
+                'message' => 'Comment added successfully!',
+                'comment' => $commentHTML,
+                'parent_id' => $comment->parent_id,
+                'comment_id' => $comment->id
+            ]);
+        }
+
         return redirect()->back()->with('success', 'Comment added successfully!');
+    }
+
+    public function getComments(Post $post)
+    {
+        $comments = $post->comments()->with('replies')->get();
+        
+        $commentsHTML = '';
+        foreach ($comments as $comment) {
+            $commentsHTML .= view('frontend.comment', ['comment' => $comment])->render();
+        }
+        
+        return response()->json([
+            'comments' => $commentsHTML
+        ]);
     }
 }
