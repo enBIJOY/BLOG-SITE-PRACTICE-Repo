@@ -1,6 +1,6 @@
 # BLOGPRACTICE
 # 🚀 BASE-BLOG-Repo
-<p align="center"> <b>This is a blog-site project for practice laravel web development</b><br> Clean architecture • Scalable structure • Practice-ready foundation </p> <p align="center"> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/stargazers"> <img src="https://img.shields.io/github/stars/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/forks"> <img src="https://img.shields.io/github/forks/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/issues"> <img src="https://img.shields.io/github/issues/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/blob/main/LICENSE"> <img src="https://img.shields.io/github/license/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> </p>
+<p align="center"> <b>A blog-site practice project for learning Laravel web development, MVC architecture, and real-world application building.</b><br> Clean architecture • Scalable structure • Practice-ready foundation </p> <p align="center"> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/stargazers"> <img src="https://img.shields.io/github/stars/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/forks"> <img src="https://img.shields.io/github/forks/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/issues"> <img src="https://img.shields.io/github/issues/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> <a href="https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo/blob/main/LICENSE"> <img src="https://img.shields.io/github/license/enBIJOY/BASE-BLOG-PRACTICE-Repo?style=flat-square" /> </a> </p>
 
 # ⭐ Overview
 
@@ -8,22 +8,25 @@ BASE-BLOG-PRACTICE-Repo is a learning-focused blog foundation project designed t
 how to build a real-world blog system from scratch.
 # 📌 Repository Focus Areas
 Focus Area	Description
-Project Structure	Clean and well-organized folder hierarchy
-Architecture Design	Scalable and maintainable system design
-Development Pattern	Real-world development practices
-Learning Approach	Practice-first development methodology
-Code Quality	Readable and maintainable codebase
-Modularity	Modular and reusable components
-Extensibility	Easy to extend into production systems
-Performance	Optimized structure for scalability
-Maintainability	Long-term maintainable code
-Best Practices	Industry standard conventions
-Security Awareness	Secure development patterns
-Deployment Ready	Production deployment readiness
-Documentation	Structured and readable documentation
-Collaboration	Team and open-source friendly
-Version Control	Git-based workflow
-Testing Ready	Testable architecture design
+| Focus Area          | Description                               |
+| ------------------- | ----------------------------------------- |
+| Project Structure   | Clean and well-organized folder hierarchy |
+| Architecture Design | Scalable and maintainable system design   |
+| Development Pattern | Real-world development practices          |
+| Learning Approach   | Practice-first development methodology    |
+| Code Quality        | Readable and maintainable codebase        |
+| Modularity          | Modular and reusable components           |
+| Extensibility       | Easy to extend into production systems    |
+| Performance         | Optimized structure for scalability       |
+| Maintainability     | Long-term maintainable code               |
+| Best Practices      | Industry standard conventions             |
+| Security Awareness  | Secure development patterns               |
+| Deployment Ready    | Production deployment readiness           |
+| Documentation       | Structured and readable documentation     |
+| Collaboration       | Team and open-source friendly             |
+| Version Control     | Git-based workflow                        |
+| Testing Ready       | Testable architecture design              |
+
 
 It is ideal for:
 
@@ -61,14 +64,12 @@ Admin panel (if added)
 
 # 🧰 Tech Stack
 Layer	Technology
-Backend	PHP / Laravel
+Backend	Laravel
 Frontend	Blade / HTML / CSS
-Styling	Tailwind CSS / Bootstrap
+Styling	   CSS / Bootstrap
 Database	MySQL
 Tools	Composer, npm
 Version Control	Git & GitHub
-
-(Update stack if needed)
 
 # 🚀 Getting Started
 
@@ -77,37 +78,25 @@ Follow these instructions to get a local copy running.
 🔧 Prerequisites
 
 Make sure you have:
-
-PHP (>= 8.x)
-
+Laravel => 10 or Higher version
+PHP (>= 8.x) Developed with = 8.2
 Composer
-
 Node.js & npm
-
 MySQL
-
-Git
-
+Git/github desktop
 Local server (XAMPP / Laragon / Valet)
 
 # 📥 Installation
 
 Clone the repository:
-
-git clone https://github.com/enBIJOY/BASE-BLOG-PRACTICE-Repo.git
-
+git clone https://github.com/enBIJOY/BLOG-SITE-PRACTICE-Repo.git
 cd BASE-BLOG-PRACTICE-Repo
-
 Install dependencies:
-
 composer install
 npm install
-
 Create environment file:
-
 cp .env.example .env
 php artisan key:generate
-
 Configure database in .env
 
 # 🏃‍♂️ Run Locally
