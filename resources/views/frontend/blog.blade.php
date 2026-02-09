@@ -76,7 +76,7 @@
     <div class="row mt-5">
         <div class="col-12">
             <nav aria-label="Page navigation">
-                {{ $posts->links() }}
+                {{ $posts->links('pagination::bootstrap-5') }}
             </nav>
         </div>
     </div>
