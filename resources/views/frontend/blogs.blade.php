@@ -17,19 +17,19 @@
             <div class="card-body">
                 <h5 class="card-title">{{ $post->title }}</h5>
                 <p class="card-text">
-                    {{ $post->excerpt ?: Str::limit(strip_tags($post->content), 150) }}
+                    {{ $post->excerpt ?: Str::limit(strip_tags($post->content), 250) }}
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">
                         {{ $post->created_at->format('M d, Y') }}
                     </small>
-                    <span class="badge bg-primary">
-                        {{ $post->comments_count }} comments
-                    </span>
                 </div>
             </div>
-            <div class="card-footer bg-transparent border-top-0">
+            <div class="card-footer bg-transparent border-top-0 d-flex justify-content-between align-items-center">
                 <a href="{{ route('frontend.blogs', $post->slug) }}" class="btn btn-primary">Read More</a>
+                <span class="badge bg-primary">
+                    {{ $post->comments_count }} comments
+                </span>
             </div>
         </div>
     </div>
