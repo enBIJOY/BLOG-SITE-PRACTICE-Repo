@@ -8,7 +8,7 @@
         <div class="col-12">
             <div class="d-flex justify-content-between align-items-center">
                 <h1 class="h3 mb-0">Blog Posts</h1>
-                <a href="{{ route('admin.posts.create') }}" class="btn btn-primary">
+                <a href="{{ route('dashboard.posts.create') }}" class="btn btn-primary">
                     <i class="fas fa-plus me-1"></i> Create New Post
                 </a>
             </div>
@@ -80,12 +80,12 @@
                                                    title="View">
                                                     <i class="fas fa-eye"></i>
                                                 </a>
-                                                <a href="{{ route('admin.posts.edit', $post) }}" 
+                                                <a href="{{ route('dashboard.posts.edit', $post) }}" 
                                                    class="btn btn-primary"
                                                    title="Edit">
                                                     <i class="fas fa-edit"></i>
                                                 </a>
-                                                <form action="{{ route('admin.posts.destroy', $post) }}" 
+                                                <form action="{{ route('dashboard.posts.destroy', $post) }}" 
                                                       method="POST" 
                                                       class="d-inline"
                                                       onsubmit="return confirm('Are you sure you want to delete this post?');">

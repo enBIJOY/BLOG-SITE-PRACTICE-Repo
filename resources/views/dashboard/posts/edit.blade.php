@@ -14,7 +14,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <form action="{{ route('admin.posts.update', $post) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('dashboard.posts.update', $post) }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
                         
@@ -142,7 +142,7 @@
                                     <button type="submit" class="btn btn-primary">
                                         <i class="fas fa-save me-1"></i> Update Post
                                     </button>
-                                    <a href="{{ route('admin.posts.index') }}" class="btn btn-outline-secondary">
+                                    <a href="{{ route('dashboard.posts.index') }}" class="btn btn-outline-secondary">
                                         <i class="fas fa-times me-1"></i> Cancel
                                     </a>
                                 </div>
