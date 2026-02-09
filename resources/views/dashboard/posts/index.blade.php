@@ -79,11 +79,13 @@
                                                    target="_blank"
                                                    title="View">
                                                     <i class="fas fa-eye"></i>
+                                                    show
                                                 </a>
                                                 <a href="{{ route('dashboard.posts.edit', $post) }}" 
                                                    class="btn btn-primary"
                                                    title="Edit">
                                                     <i class="fas fa-edit"></i>
+                                                    edit
                                                 </a>
                                                 <form action="{{ route('dashboard.posts.destroy', $post) }}" 
                                                       method="POST" 
@@ -93,6 +95,7 @@
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-danger" title="Delete">
                                                         <i class="fas fa-trash"></i>
+                                                        delete
                                                     </button>
                                                 </form>
                                             </div>
