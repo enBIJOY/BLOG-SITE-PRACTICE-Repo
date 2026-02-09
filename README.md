@@ -8,47 +8,52 @@ BASE-BLOG-PRACTICE-Repo is a learning-focused blog foundation project designed t
 how to build a real-world blog system from scratch.
 # 📌 Repository Focus Areas
 Focus Area	Description
-| Focus Area          | Description                               |
-| ------------------- | ----------------------------------------- |
-| Project Structure   | Clean and well-organized folder hierarchy |
-| Architecture Design | Scalable and maintainable system design   |
-| Development Pattern | Real-world development practices          |
-| Learning Approach   | Practice-first development methodology    |
-| Code Quality        | Readable and maintainable codebase        |
-| Modularity          | Modular and reusable components           |
-| Extensibility       | Easy to extend into production systems    |
-| Performance         | Optimized structure for scalability       |
-| Maintainability     | Long-term maintainable code               |
-| Best Practices      | Industry standard conventions             |
-| Security Awareness  | Secure development patterns               |
-| Deployment Ready    | Production deployment readiness           |
-| Documentation       | Structured and readable documentation     |
-| Collaboration       | Team and open-source friendly             |
-| Version Control     | Git-based workflow                        |
-| Testing Ready       | Testable architecture design              |
-
+| Focus Area          | Description                                                                                                       |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Requirement Docs    | Clear in-code comments, structured README, and organized project documentation for maintainability and onboarding |
+| Responsive Design   | Fully responsive UI structure ensuring compatibility across desktop, tablet, and mobile devices                   |
+| Development Pattern | Structured development workflow following scalable and industry-standard design principles                        |
+| MVC                 | Proper separation of concerns using Model–View–Controller architecture                                            |
+| Code Quality        | Clean, readable, and consistent code following best practices and coding standards                                |
+| Maintainability     | Modular structure enabling easy updates, refactoring, and long-term project evolution                             |
+| Version Control     | Git-based workflow with structured commits and repository management                                              |
+| Security Awareness  | Implementation of validation, CSRF protection, and secure data handling practices                                 |
+| Deployment Ready    | Configured for production environments with environment-based configuration                                       |
+| User Documentation  | Clear usage instructions and technical documentation for developers and users                                     |
 
 It is ideal for:
 
 🎓 Students • 🧑‍💻 Learners • 🚀 Beginners → Intermediate Developers • 📚 Practice Projects
 
+# 📌 Learning Lession
+What i have learned from this project.
+| Focus Area                 | Description                                                                                              |
+| -------------------------- | -------------------------------------------------------------------------------------------------------- |
+| CRUD with Media            | Implemented full CRUD operations with file and image upload handling, storage management, and validation |
+| Authentication Starter Kit | Integrated Laravel Jetstream/Breeze for authentication scaffolding and user management                   |
+| Theme Integration          | Integrated frontend and backend themes into Laravel with proper asset management                         |
+| Layout Mastering           | Built reusable layout structures using Blade templates and component-based design                        |
+| Custom Authentication      | Developed custom login and registration flows beyond default scaffolding                                 |
+| UI Components              | Implemented Bootstrap Carousel and Slick Carousel for dynamic frontend interactions                      |
+| Frontend Customization     | Customized UI components, layouts, and styles for project-specific requirements                          |
+| Backend Theme Integration  | Structured admin panel layout with reusable components and layout inheritance                            |
+| Global Page Settings       | Built dynamic general page settings managed from the admin dashboard                                     |
+| AJAX Form Handling         | Implemented newsletter and contact form submission with AJAX (no page reload) and database storage       |
+| Admin Dashboard Data Flow  | Connected frontend data flow to admin dashboard for real-time content management                         |
+| Dynamic Blog System        | Built admin-controlled dynamic blog creation and frontend rendering system                               |
+| Comment System             | Implemented blog post comments with nested replies and relationship handling                             |
+| Localization               | Implemented multi-language support using Laravel localization system                                     |
+
+
 # ✨ Features
 
-📝 Blog CRUD system (Create, Read, Update, Delete)
-
-📄 Blog listing & single post pages
-
-# 🧱 Clean MVC structure
-
+📝 Full Blog CRUD system (Create, Read, Update, Delete) with media support
+🧱 Clean MVC structure
+💬 Comment and reply system with nested relationships
+🧑‍💻 Admin dashboard for content and settings management
+🌐 Localization support with multi-language configuration
 🗂 Organized folder architecture
-
-⚙️ Practice-ready configuration
-
 🔌 Easily extendable
-
-🧪 Learning-oriented design
-
-📦 Modular development style
 
 # 🖼 Preview
 
