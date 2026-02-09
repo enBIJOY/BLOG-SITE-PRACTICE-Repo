@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="container py-5">
-    <div class="row my-5">
+    <div class="row mb-5">
         <div class="col-12 text-center">
             <h1 class="display-5 fw-bold mb-3">Our Blog</h1>
             <p class="lead text-muted">
@@ -19,7 +19,7 @@
             <div class="card h-100 shadow-sm border-0">
                 <!-- Post Image -->
                 <div class="position-relative">
-                    <img src="{{ $post->image ? asset('storage/' . $post->image) : asset('base/img/banner/9423091.jpg') }}" 
+                    <img src="{{ $post->image ? asset('storage/' . $post->image) : asset('images/default-blog.jpg') }}" 
                          class="card-img-top" 
                          alt="{{ $post->title }}"
                          style="height: 250px; object-fit: cover;">
@@ -53,7 +53,7 @@
                 </div>
                 
                 <div class="card-footer bg-white border-top-0 pt-0">
-                    <a href="{{ route('frontend.shows', $post->slug) }}" 
+                    <a href="{{ route('blog.show', $post->slug) }}" 
                        class="btn btn-primary w-100">
                         <i class="fas fa-book-reader me-2"></i>Read Full Article
                     </a>
@@ -76,7 +76,7 @@
     <div class="row mt-5">
         <div class="col-12">
             <nav aria-label="Page navigation">
-                {{ $posts->links('pagination::bootstrap-5') }}
+                {{ $posts->links() }}
             </nav>
         </div>
     </div>

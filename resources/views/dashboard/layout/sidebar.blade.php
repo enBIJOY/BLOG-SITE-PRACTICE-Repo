@@ -382,6 +382,19 @@
                   <p>All User</p>
                 </a>
               </li>
+              <div><span class="brand-text fw-light mt-3 d-block">Blog Management</span></div>
+              <li class="nav-item">
+                  <a href="{{ route('dashboard.posts.index') }}" class="nav-link">
+                      <i class="nav-icon bi bi-newspaper"></i>
+                      <p>All Posts</p>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="{{ route('dashboard.posts.create') }}" class="nav-link">
+                      <i class="nav-icon bi bi-plus-circle"></i>
+                      <p>Add New Post</p>
+                  </a>
+              </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-question-circle-fill"></i>

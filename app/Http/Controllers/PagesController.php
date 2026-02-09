@@ -9,9 +9,9 @@ class PagesController extends Controller
     public function home (){
         return view('frontend.home');
     }
-    public function blog (){
-        return view('frontend.blog');
-    }
+    // public function blog (){
+    //     return view('frontend.blog');
+    // }
     public function sport (){
         return view('frontend.sport');
     }
