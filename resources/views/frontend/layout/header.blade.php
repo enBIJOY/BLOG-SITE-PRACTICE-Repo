@@ -35,7 +35,7 @@
                         </ul>
                       </li> -->
                       <li class="nav-item">
-                        <a class="page-scroll  text-white" href="{{ ('') }}"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
+                        <a class="page-scroll  text-white" href="#"  data-toggle="collapse" data-target="#sub-nav2" aria-controls="sub-nav2"
                         aria-expanded="false" aria-label="Toggle navigation">News
                           <div class="sub-nav-toggler">
                             <span> <i class="lni lni-chevron-down"></i> </span>

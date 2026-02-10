@@ -3,8 +3,8 @@
 @section('title', $post->title)
 
 @section('content')
-<div class="container py-5">
-    <div class="row">
+<div class="container mt-5">
+    <div class="row py-5">
         <!-- Main Content -->
         <div class="col-lg-8 mx-auto">
             <!-- Blog Post -->
