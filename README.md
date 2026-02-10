@@ -176,10 +176,6 @@ Open a Pull Request
 
 If you discover a security vulnerability, please open an issue or contact the maintainer directly.
 
-# 📜 License
-
-This project is licensed under the MIT License.
-
 # 👤 Author
 
 enBIJOY
