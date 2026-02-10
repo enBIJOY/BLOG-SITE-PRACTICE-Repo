@@ -55,7 +55,6 @@ What i have learned from this project.
 🗂 Organized folder architecture
 🔌 Easily extendable
 
-
 # 🧰 Tech Stack
 Layer	Technology
 Backend	Laravel
@@ -209,6 +208,7 @@ If you find this project useful:
 🍴 Fork it
 
 🧑‍💻 Contribute
+🧑‍💻 You can copy
 
 📢 Share it
 
