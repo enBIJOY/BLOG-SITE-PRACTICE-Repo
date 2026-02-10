@@ -58,6 +58,8 @@ What i have learned from this project.
 # 🖼 Preview
 
 (Add screenshots here later for professional look)
+![Uploading image.png…]()
+
 
 Homepage preview
 
