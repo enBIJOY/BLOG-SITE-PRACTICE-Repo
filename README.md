@@ -107,6 +107,7 @@ Configure database in .env
 # 🏃‍♂️ Run Locally
 
 php artisan migrate
+
 php artisan serve
 
 Open in browser:
