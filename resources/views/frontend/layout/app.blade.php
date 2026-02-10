@@ -13,17 +13,19 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="{{('base/css/bootstrap-5.0.0-alpha-2.min.css')}}" />
-    <link rel="stylesheet" href="{{('base/css/LineIcons.2.0.css')}}"/>
-    <link rel="stylesheet" href="{{('base/css/animate.css')}}"/>
-    <link rel="stylesheet" href="{{('base/css/lindy-uikit.css')}}"/>
-    <link rel="stylesheet" href="{{('base/css/base-style.css')}}"/>
-    <link rel="stylesheet" href="{{('css/custom.css')}}"/>
-      <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('css/custom2.css') }}">
+    <link rel="stylesheet" href="{{ asset('base/css/bootstrap-5.0.0-alpha-2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('base/css/LineIcons.2.0.css') }}" />
+    <link rel="stylesheet" href="{{ asset('base/css/animate.css') }}" />
+    <link rel="stylesheet" href="{{ asset('base/css/lindy-uikit.css') }}" />
+    <link rel="stylesheet" href="{{ asset('base/css/base-style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/custom2.css') }}" />
+
+    
     <!-- Slick CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    @stack('styles')
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -74,12 +76,13 @@
     <!-- ========================= JS here ========================= -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="{{('base/js/bootstrap.5.0.0.alpha-2-min.js')}}"></script>
-    <script src="{{('base/js/count-up.min.js')}}"></script>
-    <script src="{{('base/js/wow.min.js')}}"></script>
-    <script src="{{('base/js/main.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('base/js/count-up.min.js') }}"></script>
+    <script src="{{ asset('base/js/wow.min.js') }}"></script>
+    <script src="{{ asset('base/js/main.js') }}"></script>
     <script src="{{ asset('js/newsletter.js') }}"></script>
     <script src="{{ asset('js/contactform.js') }}"></script>
     @stack('scripts')
+
   </body>
 </html>

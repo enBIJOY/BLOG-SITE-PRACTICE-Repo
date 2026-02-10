@@ -42,6 +42,7 @@
                                 <button class="btn btn-sm btn-outline-primary reply-btn"
                                         data-id="{{ $comment->id }}"
                                         data-name="{{ $comment->name }}">
+
                                     <i class="fas fa-reply me-1"></i>Reply
                                 </button>
                             </div>
