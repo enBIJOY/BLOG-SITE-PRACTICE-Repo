@@ -68,17 +68,6 @@ Version Control	Git & GitHub
 
 Follow these instructions to get a local copy running.
 
-🔧 Prerequisites
-
-Make sure you have:
-Laravel => 10 or Higher version
-PHP (>= 8.x) Developed with = 8.2
-Composer
-Node.js & npm
-MySQL
-Git/github desktop
-Local server (XAMPP / Laragon / Valet)
-
 | Area                     | Stack & Version                       |
 | ------------------------ | ------------------------------------- |
 | Framework                | Laravel 10+                           |
