@@ -79,6 +79,17 @@ MySQL
 Git/github desktop
 Local server (XAMPP / Laragon / Valet)
 
+| Area                     | Stack & Version                       |
+| ------------------------ | ------------------------------------- |
+| Framework                | Laravel 10+                           |
+| Programming Language     | PHP (>= 8.x) — Developed with PHP 8.2 |
+| Dependency Manager       | Composer                              |
+| Runtime Environment      | Node.js & npm                         |
+| Database                 | MySQL                                 |
+| Version Control System   | Git & GitHub Desktop                  |
+| Local Development Server | XAMPP / Laragon / Valet               |
+
+
 # 📥 Installation
 
 Clone the repository:
