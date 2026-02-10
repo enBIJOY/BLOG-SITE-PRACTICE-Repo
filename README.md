@@ -57,8 +57,20 @@ What i have learned from this project.
 
 # 🖼 Preview
 
-(Add screenshots here later for professional look)
-![Homepage](Screenshots/homePage.png)
+### 🏠 Homepage
+![Homepage](Screenshot/homePage.png)
+
+### 📄 About Us Page
+![About Us](Screenshot/AboutUsPage.png)
+
+### 📝 Dynamic Blog Post
+![Dynamic Blog Post](Screenshot/DynamicBlogPost.png)
+
+### 📬 Contacted List Page
+![Contact List](Screenshot/contactedListPage.png)
+
+### 🧑‍💻 Admin Dashboard
+![Admin Dashboard](Screenshot/AdminDashboard.png)
 
 
 Homepage preview
