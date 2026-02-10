@@ -208,6 +208,7 @@ GitHub: https://github.com/enBIJOY
 If you find this project useful:
 
 ⭐ Star the repository
+📢 Connect me on Linkedin
 
 🍴 Fork it
 
