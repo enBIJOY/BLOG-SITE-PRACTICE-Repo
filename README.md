@@ -55,31 +55,6 @@ What i have learned from this project.
 🗂 Organized folder architecture
 🔌 Easily extendable
 
-# 🖼 Preview
-
-### 🏠 Homepage
-![Homepage](Screenshot/homePage.png)
-
-### 📄 About Us Page
-![About Us](Screenshot/AboutUsPage.png)
-
-### 📝 Dynamic Blog Post
-![Dynamic Blog Post](Screenshot/DynamicBlogPost.png)
-
-### 📬 Contacted List Page
-![Contact List](Screenshot/contactedListPage.png)
-
-### 🧑‍💻 Admin Dashboard
-![Admin Dashboard](Screenshot/AdminDashboard.png)
-
-
-Homepage preview
-
-Blog list page
-
-Single post page
-
-Admin panel (if added)
 
 # 🧰 Tech Stack
 Layer	Technology
@@ -209,6 +184,24 @@ This project is licensed under the MIT License.
 
 enBIJOY
 GitHub: https://github.com/enBIJOY
+
+
+# 🖼 Preview
+
+### 🏠 Homepage
+![Homepage](Screenshot/homePage.png)
+
+### 📄 About Us Page
+![About Us](Screenshot/AboutUsPage.png)
+
+### 📝 Dynamic Blog Post
+![Dynamic Blog Post](Screenshot/DynamicBlogPost.png)
+
+### 📬 Contacted List Page
+![Contact List](Screenshot/contactedListPage.png)
+
+### 🧑‍💻 Admin Dashboard
+![Admin Dashboard](Screenshot/AdminDashboard.png)
 
 # ⭐ Support
 
