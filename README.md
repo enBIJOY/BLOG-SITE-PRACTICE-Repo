@@ -71,7 +71,7 @@ Follow these instructions to get a local copy running.
 | Area                     | Stack & Version                       |
 | ------------------------ | ------------------------------------- |
 | Framework                | Laravel 10+                           |
-| Programming Language     | PHP (>= 8.x) — Developed with PHP 8.2 |
+| Programming Language     | PHP 8x(+) — Developed with PHP 8.2 |
 | Dependency Manager       | Composer                              |
 | Runtime Environment      | Node.js & npm                         |
 | Database                 | MySQL                                 |
