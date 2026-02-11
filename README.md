@@ -174,7 +174,12 @@ If you discover a security vulnerability, please open an issue or contact the ma
 # 👤 Author
 
 enBIJOY
+
 GitHub: https://github.com/enBIJOY
+
+Linkedin
+
+Profile: https://linkedin.com/in/mofizuldev/
 
 
 # 🖼 Preview
