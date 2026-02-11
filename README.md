@@ -126,6 +126,7 @@ resources/      → Views, CSS, JS
 routes/         → Web & API routes  
 storage/        → Logs & uploads  
 tests/          → Testing files  
+Screenshot/     → Github Redmi Image Showing    
 
 # 🛣 Roadmap
 
