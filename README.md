@@ -116,10 +116,6 @@ Implement authentication
 
 Create admin dashboards
 
-Extend into CMS systems
-
-Develop real-world portfolio projects
-
 # 🗂 Project Structure
 app/            → Application logic  
 bootstrap/      → App bootstrapping  
