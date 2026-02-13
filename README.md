@@ -148,8 +148,6 @@ Screenshot/     → Github Redmi Image Showing
 
  Deployment config
 
- CI/CD pipeline
-
 # 🤝 Contributing
 
 Contributions are welcome and encouraged ❤️
@@ -205,7 +203,7 @@ Profile: https://linkedin.com/in/mofizuldev/
 If you find this project useful:
 
 ⭐ Star the repository
-📢 Connect me on Linkedin
+📢 Connect me on LinkedIn
 
 🍴 Fork it
 
